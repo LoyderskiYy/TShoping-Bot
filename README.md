@@ -63,16 +63,16 @@ cp .env.example .env
 Заполните параметры в `.env`:
 ```ini
 # Токен вашего бота (получить у @BotFather)
-BOT_TOKEN=123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ
+BOT_TOKEN=ТОКЕН
 
 # Telegram ID администраторов через запятую (узнать свой ID можно у @userinfobot)
-ADMIN_IDS=123456789
+ADMIN_IDS=ID
 
 # Путь к файлу базы данных SQLite
 DATABASE_PATH=shop.db
 
 # Начальный Bitcoin-кошелек (можно изменить позже в /admin)
-DEFAULT_BTC_WALLET=bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh
+DEFAULT_BTC_WALLET=BTC
 
 # Минимальная сумма пополнения в рублях
 MIN_DEPOSIT_RUB=100.0
